@@ -1,0 +1,23 @@
+name: adobe_xd
+description: Generate code for building apps with Flutter based on your designs in Adobe XD with the “XD to Flutter” plugin. This package contains helper widgets used by the plugin.
+repository: https://github.com/AdobeXD/xd-to-flutter-plugin/tree/master/adobe_xd
+homepage: https://xd.adobelanding.com/xd-to-flutter/
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.1.0 <3.0.0'
+  flutter: ^1.6.7
+
+dependencies:
+  flutter:
+    sdk: 'flutter'
+  flutter_svg: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
